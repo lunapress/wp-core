@@ -1,1 +1,1 @@
-# wp-core
+# Wp Core Wrapper
