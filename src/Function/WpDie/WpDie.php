@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace LunaPress\Wp\Core\WpDie;
+namespace LunaPress\Wp\Core\Function\WpDie;
 
 use LunaPress\FoundationContracts\Support\WpFunction\WpArray;
-use LunaPress\Wp\CoreContracts\WpDie\IWpDieArgs;
-use LunaPress\Wp\CoreContracts\IWpError;
-use LunaPress\Wp\CoreContracts\WpDie\IWpDieFunction;
+use LunaPress\Wp\CoreContracts\Entity\WpError\IWpError;
+use LunaPress\Wp\CoreContracts\Function\WpDie\IWpDieArgs;
+use LunaPress\Wp\CoreContracts\Function\WpDie\IWpDieFunction;
 
 defined('ABSPATH') || exit;
 

@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace LunaPress\Wp\Core\WpDie;
+namespace LunaPress\Wp\Core\Function\WpDie;
 
-use LunaPress\Wp\CoreContracts\WpDie\IWpDieFunction;
-use LunaPress\Wp\CoreContracts\IWpError;
-use LunaPress\Wp\CoreContracts\WpDie\IWpDieFactory;
+use LunaPress\Wp\CoreContracts\Entity\WpError\IWpError;
+use LunaPress\Wp\CoreContracts\Function\WpDie\IWpDieFunction;
+use LunaPress\Wp\CoreContracts\Function\WpDie\IWpDieFactory;
 use Psr\Container\ContainerInterface;
 
 defined('ABSPATH') || exit;

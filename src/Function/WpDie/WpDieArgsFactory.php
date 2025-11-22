@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace LunaPress\Wp\Core\WpDie;
+namespace LunaPress\Wp\Core\Function\WpDie;
 
-use LunaPress\Wp\CoreContracts\WpDie\IWpDieArgs;
-use LunaPress\Wp\CoreContracts\WpDie\IWpDieArgsFactory;
+use LunaPress\Wp\CoreContracts\Function\WpDie\IWpDieArgs;
+use LunaPress\Wp\CoreContracts\Function\WpDie\IWpDieArgsFactory;
 use Psr\Container\ContainerInterface;
 
 defined('ABSPATH') || exit;
